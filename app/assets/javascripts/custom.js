@@ -8,7 +8,7 @@ $(document).ready(function($) {
   $("a", ".nav").click(function() {
     if (!$(this).hasClass("active")) {
       current_tag = this;
-      $(".sec:visible").fadeOut(sec_fadeout, function() {
+      $(".section:visible").fadeOut(sec_fadeout, function() {
         var new_sec;
         $("a", ".nav").removeClass("active");
         $(current_tag).addClass("active");
