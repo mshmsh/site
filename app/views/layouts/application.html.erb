@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= full_title(yield(:title)) %></title>
+              <%= stylesheet_link_tag    'application', 'http://fonts.googleapis.com/css?family=Josefin+Sans|Montaga|Open+Sans:400,300,700|Wire+One', "http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css", media: 'all', 'data-turbolinks-track' => true %>
+
+
+              <%= csrf_meta_tags %>
+              <%= render 'layouts/shim' %>
+
+        </head>
+<body>
+            <%= render 'layouts/nav' %>
+            <%= render 'layouts/front' %>
+            <%= render 'layouts/about' %>
+            <%= render 'layouts/portfolio' %>
+            <%= render 'layouts/contact' %>
+
+
+
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+</body>
+</html>
