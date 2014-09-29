@@ -85,6 +85,10 @@ aside, article , section, header, footer, nav {
     top: 20px;
     text-align: center;
     font-size: 16px;
+    -webkit-transition: background 0.2s linear 0s, color 0.1s linear 0s;
+    -moz-transition: background 0.2s linear 0s, color 0.1s linear 0s;
+    -o-transition: background 0.2s linear 0s, color 0.1s linear 0s;
+    transition: background 0.2s linear 0s, color 0.1s linear 0s;
 }
 #navMove:hover {
     background: rgba(0, 0, 0, .1);
@@ -149,7 +153,51 @@ aside, article , section, header, footer, nav {
     text-decoration: none;
     color: inherit;
 }
+.btn-sm {
+    background: #1A3140;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 6px 13px;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    -webkit-transition: background 0.2s linear 0s, color 0.1s linear 0s;
+    -moz-transition: background 0.2s linear 0s, color 0.1s linear 0s;
+    -o-transition: background 0.2s linear 0s, color 0.1s linear 0s;
+    transition: background 0.2s linear 0s, color 0.1s linear 0s;
+}
+.btn-sm:hover{
+    background: rgba(26,49,64,.6);
+    color:#fff;
+}
+
 .footer {
     position: relative;
-    margin-top: 350px;
+    margin-top: 0px;
+    clear: both;
 }
+.menu-arrow{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    color: gray;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    top: 20px;
+    right: 5px;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+
+
+
+
+
+

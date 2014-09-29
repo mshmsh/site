@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
-  root 'static_pages#index'
-  get 'static_pages/java'
-  get 'static_pages/relax'
+ root 'static_pages#index', via: [:get, :post]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

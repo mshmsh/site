@@ -21,16 +21,18 @@ $(document).ready(function($) {
 });
 
 /* Nav Toggle */
+
 $(document).ready(function($) {
   $("#navMove").click(function() {
     $("#nav").toggleClass("nav-toggle");
-    if ($("#navMove i").hasClass("fa fa-toggle-on")) {
-      $("#navMove i").removeClass("fa fa-toggle-on");
-      $("#navMove i").addClass("fa fa-toggle-off");
-    } else {
-      $("#navMove i").removeClass("fa fa-toggle-off")
-      $("#navMove i").addClass("fa fa-toggle-on");
-    }
+      if ($("#nav").hasClass("nav-toggle") ) {
+          $("#navMove i").removeClass("fa fa-bars");
+          $("#navMove i").addClass("fa fa-arrow-right");
+    }else {
+          $("#navMove i").removeClass("fa fa-arrow-right");
+          $("#navMove i").addClass("fa fa-bars");
+
+      }
   });
 });
 
