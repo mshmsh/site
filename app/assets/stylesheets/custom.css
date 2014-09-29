@@ -1,3 +1,4 @@
+/* blue : rgb(26,49,64) */
 html {
             font-size: 100%;
 }
@@ -154,10 +155,10 @@ aside, article , section, header, footer, nav {
     color: inherit;
 }
 .btn-sm {
-    background: #1A3140;
-    color: #fff;
+    background: rgba(0,0,0,.3);
+    color: #1A3140;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
     padding: 6px 13px;
     text-align: center;
     vertical-align: middle;
@@ -168,8 +169,8 @@ aside, article , section, header, footer, nav {
     transition: background 0.2s linear 0s, color 0.1s linear 0s;
 }
 .btn-sm:hover{
-    background: rgba(26,49,64,.6);
-    color:#fff;
+    background: rgba(0,0,0,.1);
+    color:rgba(0,0,0,.9);
 }
 
 .footer {
@@ -177,23 +178,7 @@ aside, article , section, header, footer, nav {
     margin-top: 0px;
     clear: both;
 }
-.menu-arrow{
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    font-size: 14px;
-    color: gray;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    top: 20px;
-    right: 5px;
-    -webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
-}
+
 
 
 
