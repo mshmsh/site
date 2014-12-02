@@ -48,6 +48,10 @@ aside, article , section, header, footer, nav {
 	display :block;
 }
 
+.divider-sm {
+    margin-top: 40px;
+}
+
 .frontline, .secondline {
    text-shadow : 3px 3px 3px #BBB;
 }
